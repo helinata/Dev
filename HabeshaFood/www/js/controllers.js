@@ -64,6 +64,4 @@ angular.module('starter.controllers', [])
       $scope.cookingTimeTitle = "Cooking Time: ";
       }
   });
-})
-.controller('VeganCtrl', function($scope, $stateParams) {
 });

@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F3E6ADE20B227090011F9FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3E6ADD20B227090011F9FE /* AppDelegate.swift */; };
+		7F3E6AE020B227090011F9FE /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3E6ADF20B227090011F9FE /* RootViewController.swift */; };
+		7F3E6AE220B227090011F9FE /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3E6AE120B227090011F9FE /* DataViewController.swift */; };
+		7F3E6AE420B227090011F9FE /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3E6AE320B227090011F9FE /* ModelController.swift */; };
+		7F3E6AE720B227090011F9FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F3E6AE520B227090011F9FE /* Main.storyboard */; };
+		7F3E6AE920B2270C0011F9FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F3E6AE820B2270C0011F9FE /* Assets.xcassets */; };
+		7F3E6AEC20B2270C0011F9FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F3E6AEA20B2270C0011F9FE /* LaunchScreen.storyboard */; };
+		7F3E6AF720B2270C0011F9FE /* Habesha_FoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3E6AF620B2270C0011F9FE /* Habesha_FoodTests.swift */; };
+		7F3E6B0220B2270C0011F9FE /* Habesha_FoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3E6B0120B2270C0011F9FE /* Habesha_FoodUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F3E6AF320B2270C0011F9FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F3E6AD220B227090011F9FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F3E6AD920B227090011F9FE;
+			remoteInfo = "Habesha Food";
+		};
+		7F3E6AFE20B2270C0011F9FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F3E6AD220B227090011F9FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F3E6AD920B227090011F9FE;
+			remoteInfo = "Habesha Food";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F3E6ADA20B227090011F9FE /* Habesha Food.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Habesha Food.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F3E6ADD20B227090011F9FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F3E6ADF20B227090011F9FE /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		7F3E6AE120B227090011F9FE /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		7F3E6AE320B227090011F9FE /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		7F3E6AE620B227090011F9FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F3E6AE820B2270C0011F9FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F3E6AEB20B2270C0011F9FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F3E6AED20B2270C0011F9FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F3E6AF220B2270C0011F9FE /* Habesha FoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Habesha FoodTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F3E6AF620B2270C0011F9FE /* Habesha_FoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habesha_FoodTests.swift; sourceTree = "<group>"; };
+		7F3E6AF820B2270C0011F9FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F3E6AFD20B2270C0011F9FE /* Habesha FoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Habesha FoodUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F3E6B0120B2270C0011F9FE /* Habesha_FoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habesha_FoodUITests.swift; sourceTree = "<group>"; };
+		7F3E6B0320B2270C0011F9FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F3E6AD720B227090011F9FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F3E6AEF20B2270C0011F9FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F3E6AFA20B2270C0011F9FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F3E6AD120B227090011F9FE = {
+			isa = PBXGroup;
+			children = (
+				7F3E6ADC20B227090011F9FE /* Habesha Food */,
+				7F3E6AF520B2270C0011F9FE /* Habesha FoodTests */,
+				7F3E6B0020B2270C0011F9FE /* Habesha FoodUITests */,
+				7F3E6ADB20B227090011F9FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F3E6ADB20B227090011F9FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F3E6ADA20B227090011F9FE /* Habesha Food.app */,
+				7F3E6AF220B2270C0011F9FE /* Habesha FoodTests.xctest */,
+				7F3E6AFD20B2270C0011F9FE /* Habesha FoodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F3E6ADC20B227090011F9FE /* Habesha Food */ = {
+			isa = PBXGroup;
+			children = (
+				7F3E6ADD20B227090011F9FE /* AppDelegate.swift */,
+				7F3E6ADF20B227090011F9FE /* RootViewController.swift */,
+				7F3E6AE120B227090011F9FE /* DataViewController.swift */,
+				7F3E6AE320B227090011F9FE /* ModelController.swift */,
+				7F3E6AE520B227090011F9FE /* Main.storyboard */,
+				7F3E6AE820B2270C0011F9FE /* Assets.xcassets */,
+				7F3E6AEA20B2270C0011F9FE /* LaunchScreen.storyboard */,
+				7F3E6AED20B2270C0011F9FE /* Info.plist */,
+			);
+			path = "Habesha Food";
+			sourceTree = "<group>";
+		};
+		7F3E6AF520B2270C0011F9FE /* Habesha FoodTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F3E6AF620B2270C0011F9FE /* Habesha_FoodTests.swift */,
+				7F3E6AF820B2270C0011F9FE /* Info.plist */,
+			);
+			path = "Habesha FoodTests";
+			sourceTree = "<group>";
+		};
+		7F3E6B0020B2270C0011F9FE /* Habesha FoodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F3E6B0120B2270C0011F9FE /* Habesha_FoodUITests.swift */,
+				7F3E6B0320B2270C0011F9FE /* Info.plist */,
+			);
+			path = "Habesha FoodUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F3E6AD920B227090011F9FE /* Habesha Food */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F3E6B0620B2270C0011F9FE /* Build configuration list for PBXNativeTarget "Habesha Food" */;
+			buildPhases = (
+				7F3E6AD620B227090011F9FE /* Sources */,
+				7F3E6AD720B227090011F9FE /* Frameworks */,
+				7F3E6AD820B227090011F9FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Habesha Food";
+			productName = "Habesha Food";
+			productReference = 7F3E6ADA20B227090011F9FE /* Habesha Food.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F3E6AF120B2270C0011F9FE /* Habesha FoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F3E6B0920B2270C0011F9FE /* Build configuration list for PBXNativeTarget "Habesha FoodTests" */;
+			buildPhases = (
+				7F3E6AEE20B2270C0011F9FE /* Sources */,
+				7F3E6AEF20B2270C0011F9FE /* Frameworks */,
+				7F3E6AF020B2270C0011F9FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F3E6AF420B2270C0011F9FE /* PBXTargetDependency */,
+			);
+			name = "Habesha FoodTests";
+			productName = "Habesha FoodTests";
+			productReference = 7F3E6AF220B2270C0011F9FE /* Habesha FoodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F3E6AFC20B2270C0011F9FE /* Habesha FoodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F3E6B0C20B2270C0011F9FE /* Build configuration list for PBXNativeTarget "Habesha FoodUITests" */;
+			buildPhases = (
+				7F3E6AF920B2270C0011F9FE /* Sources */,
+				7F3E6AFA20B2270C0011F9FE /* Frameworks */,
+				7F3E6AFB20B2270C0011F9FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F3E6AFF20B2270C0011F9FE /* PBXTargetDependency */,
+			);
+			name = "Habesha FoodUITests";
+			productName = "Habesha FoodUITests";
+			productReference = 7F3E6AFD20B2270C0011F9FE /* Habesha FoodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F3E6AD220B227090011F9FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Helina Atsebha";
+				TargetAttributes = {
+					7F3E6AD920B227090011F9FE = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					7F3E6AF120B2270C0011F9FE = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 7F3E6AD920B227090011F9FE;
+					};
+					7F3E6AFC20B2270C0011F9FE = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 7F3E6AD920B227090011F9FE;
+					};
+				};
+			};
+			buildConfigurationList = 7F3E6AD520B227090011F9FE /* Build configuration list for PBXProject "Habesha Food" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F3E6AD120B227090011F9FE;
+			productRefGroup = 7F3E6ADB20B227090011F9FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F3E6AD920B227090011F9FE /* Habesha Food */,
+				7F3E6AF120B2270C0011F9FE /* Habesha FoodTests */,
+				7F3E6AFC20B2270C0011F9FE /* Habesha FoodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F3E6AD820B227090011F9FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F3E6AEC20B2270C0011F9FE /* LaunchScreen.storyboard in Resources */,
+				7F3E6AE920B2270C0011F9FE /* Assets.xcassets in Resources */,
+				7F3E6AE720B227090011F9FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F3E6AF020B2270C0011F9FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F3E6AFB20B2270C0011F9FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F3E6AD620B227090011F9FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F3E6AE020B227090011F9FE /* RootViewController.swift in Sources */,
+				7F3E6AE420B227090011F9FE /* ModelController.swift in Sources */,
+				7F3E6AE220B227090011F9FE /* DataViewController.swift in Sources */,
+				7F3E6ADE20B227090011F9FE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F3E6AEE20B2270C0011F9FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F3E6AF720B2270C0011F9FE /* Habesha_FoodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F3E6AF920B2270C0011F9FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F3E6B0220B2270C0011F9FE /* Habesha_FoodUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F3E6AF420B2270C0011F9FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F3E6AD920B227090011F9FE /* Habesha Food */;
+			targetProxy = 7F3E6AF320B2270C0011F9FE /* PBXContainerItemProxy */;
+		};
+		7F3E6AFF20B2270C0011F9FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F3E6AD920B227090011F9FE /* Habesha Food */;
+			targetProxy = 7F3E6AFE20B2270C0011F9FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F3E6AE520B227090011F9FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F3E6AE620B227090011F9FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F3E6AEA20B2270C0011F9FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F3E6AEB20B2270C0011F9FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F3E6B0420B2270C0011F9FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F3E6B0520B2270C0011F9FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F3E6B0720B2270C0011F9FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FM4Q45UXC3;
+				INFOPLIST_FILE = "Habesha Food/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.habeshafood.helina.Habesha-Food";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F3E6B0820B2270C0011F9FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FM4Q45UXC3;
+				INFOPLIST_FILE = "Habesha Food/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.habeshafood.helina.Habesha-Food";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F3E6B0A20B2270C0011F9FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5DWAQ5XL4;
+				INFOPLIST_FILE = "Habesha FoodTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.habeshafood.helina.Habesha-FoodTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Habesha Food.app/Habesha Food";
+			};
+			name = Debug;
+		};
+		7F3E6B0B20B2270C0011F9FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5DWAQ5XL4;
+				INFOPLIST_FILE = "Habesha FoodTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.habeshafood.helina.Habesha-FoodTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Habesha Food.app/Habesha Food";
+			};
+			name = Release;
+		};
+		7F3E6B0D20B2270C0011F9FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5DWAQ5XL4;
+				INFOPLIST_FILE = "Habesha FoodUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.habeshafood.helina.Habesha-FoodUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Habesha Food";
+			};
+			name = Debug;
+		};
+		7F3E6B0E20B2270C0011F9FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5DWAQ5XL4;
+				INFOPLIST_FILE = "Habesha FoodUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.habeshafood.helina.Habesha-FoodUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Habesha Food";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F3E6AD520B227090011F9FE /* Build configuration list for PBXProject "Habesha Food" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F3E6B0420B2270C0011F9FE /* Debug */,
+				7F3E6B0520B2270C0011F9FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F3E6B0620B2270C0011F9FE /* Build configuration list for PBXNativeTarget "Habesha Food" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F3E6B0720B2270C0011F9FE /* Debug */,
+				7F3E6B0820B2270C0011F9FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F3E6B0920B2270C0011F9FE /* Build configuration list for PBXNativeTarget "Habesha FoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F3E6B0A20B2270C0011F9FE /* Debug */,
+				7F3E6B0B20B2270C0011F9FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F3E6B0C20B2270C0011F9FE /* Build configuration list for PBXNativeTarget "Habesha FoodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F3E6B0D20B2270C0011F9FE /* Debug */,
+				7F3E6B0E20B2270C0011F9FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F3E6AD220B227090011F9FE /* Project object */;
+}
