@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F1AC8F620BA12EE005F432E /* Habesha Food.app in Resources */ = {isa = PBXBuildFile; fileRef = 7F3E6ADA20B227090011F9FE /* Habesha Food.app */; };
 		7F3E6ADE20B227090011F9FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3E6ADD20B227090011F9FE /* AppDelegate.swift */; };
 		7F3E6AE020B227090011F9FE /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3E6ADF20B227090011F9FE /* RootViewController.swift */; };
 		7F3E6AE220B227090011F9FE /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3E6AE120B227090011F9FE /* DataViewController.swift */; };
@@ -238,6 +239,7 @@
 				7F3E6AEC20B2270C0011F9FE /* LaunchScreen.storyboard in Resources */,
 				7F3E6AE920B2270C0011F9FE /* Assets.xcassets in Resources */,
 				7F3E6AE720B227090011F9FE /* Main.storyboard in Resources */,
+				7F1AC8F620BA12EE005F432E /* Habesha Food.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
